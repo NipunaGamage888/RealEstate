@@ -11,7 +11,7 @@ const userSchema= new mongoose.Schema({
         required:true,
         unique:true
     },
-    emai:{
+    email:{
         type:String,
         required:true,
         unique:true
